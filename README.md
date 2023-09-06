@@ -9,3 +9,5 @@ The list of a domains validated:
 - Yahoo;
 - Outlook;
 - AOL;
+
+As well as the use of "@" "," and ".' in email formatting.
