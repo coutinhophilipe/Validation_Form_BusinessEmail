@@ -1,8 +1,5 @@
 function Validacao(email) {
 
-    // Variável dentro da função para que o valor seja atualizado toda chamada nova da função 
-    //let email = txtemail.value;
-
     // Regex para verificar se o e-mail tem um "@" e pelo menos um "." após o "@"
     let FormatoValido = /@.*\./;
 
