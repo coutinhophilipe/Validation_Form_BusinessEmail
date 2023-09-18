@@ -11,4 +11,4 @@ The list of a domains validated:
 - Outlook;
 - AOL;
 
-As well as the use of "@" "," and ".' in email formatting.
+As well as the use of "@" ",", ".", ",," and ".."  in email formatting.
