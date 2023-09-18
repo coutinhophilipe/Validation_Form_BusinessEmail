@@ -4,7 +4,7 @@ function Validacao(email) {
     let FormatoValido = /@.*\./;
 
     // Regex para verificar se o e-mail tem um ","
-    let FormatoInvalido = /,|\.,|,,/;
+    let FormatoInvalido = /,|\.,|,,|\.\./;
     
     // Regex para excluir alguns domínios de e-mail comuns
     let DominiosProibidos = /@(gmail\.com|yahoo\.com|outlook\.com|aol\.com|hotmail\.com)$/i;
@@ -29,3 +29,5 @@ Validacao (`teste@teste.com,br`);
 Validacao (`teste@gmail.com`);
 Validacao (`teste@hotmail.com`);
 Validacao (`teste@teste.com.br`);
+Validacao (`teste@teste,,com`);
+Validacao (`teste@teste..com`);
