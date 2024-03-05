@@ -1,14 +1,15 @@
 # Validation_Form_BusinessEmail
 
-This is script about a validation form only business email.
+Esse script valida, através de um formulário, se o email é corporativo
 
-Developed in JavaScript with a Regex, condiction IF and logical operators.
+Desenvolvido em JavaScript com Regex, condições IF e operadores lógicos.
 
-The list of a domains validated:
+Lista de domínios validados no script:
 - Hotmail;
 - Gmail;
 - Yahoo;
 - Outlook;
 - AOL;
 
-As well as the use of "@", ",", ".", ",,", ".." or ",."  in email formatting.
+
+Além da validação de "@", ",", ".", ",,", ".." or ",."  no formato de email.
